@@ -269,7 +269,7 @@ $billing_lang = array
 	'dev' => "	<ul class=\'settingsb\'>
 					<li style=\'min-width:90px; margin-left: 10px\'><a href=\'http://dle-billing.ru/\' target=\'_blank\' title=\'Официальный сайт\'><i class=\'icon-home\'></i><br>Официальный сайт</a></li>
 					<li style=\'min-width:90px; margin-left: 10px\'><a href=\'http://dle-billing.ru/doc.html\' target=\'_blank\' title=\'Документация\'><i class=\'icon-magic\'></i><br>Документация</a></li>
-					<li style=\'min-width:90px; margin-left: 10px\'><a href=\'https://github.com/mr-Evgen/DLE-Billing\' target=\'_blank\' title=\'Репозиторий на GitHub\'><i class=\'icon-github\'></i><br>GitHub</a></li>
+					<li style=\'min-width:90px; margin-left: 10px\'><a href=\'https://github.com/mr-Evgen/dle-billing-module\' target=\'_blank\' title=\'Репозиторий на GitHub\'><i class=\'icon-github\'></i><br>GitHub</a></li>
 					<li style=\'min-width:90px; margin-left: 10px\'><a href=\'http://dle-billing.ru/partner.html\' target=\'_blank\' title=\'Партнёрская программа\'><i class=\'icon-money\'></i><br>Партнёрам</a></li>
 				</ul>",
 	'dev_title' => "Разработка и поддержка",
