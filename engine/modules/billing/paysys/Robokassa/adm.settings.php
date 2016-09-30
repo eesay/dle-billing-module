@@ -57,9 +57,8 @@ Class PAYSYS
 	
 	function check_out( $DATA, $CONFIG, $INVOICE ) 
 	{
-		$out_summ = $INVOICE['invoice_pay'];
+		$out_summ = $DATA['OutSum'];
 		$inv_id = $DATA["InvId"];
-		$shp_item = $DATA["Shp_item"];
 		$crc = $DATA["SignatureValue"];
 
 		$crc = strtoupper($crc);
