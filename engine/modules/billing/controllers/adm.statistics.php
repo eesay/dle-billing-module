@@ -690,14 +690,14 @@ HTML;
 	
 	private function ThemeInfoUserFoto( $foto ) 
 	{
-	    if ( count(explode("@", $foto)) == 2 )
+	   if ( count(explode("@", $foto)) == 2 )
             $foto = 'http://www.gravatar.com/avatar/' . md5(trim($foto)) . '?s=150';
 		
         elseif( $foto and ( file_exists( ROOT_DIR . "/uploads/fotos/" . $foto )) ) 
-			$foto = $config['http_home_url'] . "uploads/fotos/" . $foto;
+			$foto = $this->DevTools->config_dle['http_home_url'] . "uploads/fotos/" . $foto;
 			
         else
-			$foto = "{$this->config_dle['http_home_url']}templates/{$this->config_dle['skin']}/dleimages/noavatar.png";
+			$foto = "{$this->DevTools->config_dle['http_home_url']}templates/{$this->DevTools->config_dle['skin']}/dleimages/noavatar.png";
 		
 		return $foto;
 	}
